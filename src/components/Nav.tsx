@@ -1,9 +1,9 @@
-import Link from "next/link";
+
 import { hamburger } from "../../assets/icons";
 import { headerLogo } from "../../assets/images";
 import { navLinks } from "../../constants";
 import Image from 'next/image'
-
+import Link from "next/link";
 const Nav = () => {
     return (
       <header className='padding-x py-8 absolute z-10 w-full'>
